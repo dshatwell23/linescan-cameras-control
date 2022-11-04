@@ -1,13 +1,11 @@
 # Line-scan camera control
 
-<!---
-![teaser figure](images/teaser.png)
-**Line-scan camera control system:** From left to right--original image of patient; undistorted image; keypoint estimation using OpenPose; anthropometric measurements (projections). </p> 
---->
+![teaser figure](images/testbench_images.png)
+**Ore sorting test bench with line-scan cameras:** From left to right--Outside view of the ore sorting test bench; line-scan color camera; line-scan 3D profiling camera & laser; control panel; conveyor belt AC motor; LED bards & laser projection. </p> 
 
 ## Description
 
-This repository contains the code for a program used two control two line-scan GigE cameras: a color camera (Teledyne Dalsa Spyder 3 GigE) and a 3D profiling camera (Automation Technology C2-2040 GigE). Unlike area-scan cameras, which capture a 2D image in every frame, line-scan cameras capture only a single line. The advantage of this type of cameras is that they can capture images of objects moving at very high speeds with very little motion blur. On the other hand, both cameras are also controlled by Gigabit Ethernet, which also has several advantages over consumer-oriented cameras. For example, they can be controlled remotely from a long distance, their images can be uploaded directly to a custom processing software, and they can use GigE Vision events, which are very useful for synchronizing multiple cameras and processing their images in real-time applications.
+This repository contains the code for a program used two control two line-scan GigE cameras: a color camera (Teledyne Dalsa Spyder 3 GigE) and a 3D profiling camera (Automation Technology C2-2040 GigE). Unlike area-scan cameras, which capture a 2D image in every frame, line-scan cameras capture only a single line. The advantage of this type of cameras is that they can capture images of objects moving at very high speeds with very little motion blur. Both cameras are also controlled by Gigabit Ethernet, which also has several advantages over consumer-oriented cameras. For example, they can be controlled remotely, their images can be sent directly to a processing software, and they can use GigE Vision events, which are very useful for synchronizing multiple cameras and processing their images in real-time applications.
 
 ## Teledyne Dalsa Spyder 3 GigE
 
